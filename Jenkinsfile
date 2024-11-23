@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Клонирование репозитория') {
             steps {
-                git 'https://github.com/axaxa19/test/sample-node-app.git'
+                git 'https://github.com/axaxa19/test.git'
                 
             }
         }
